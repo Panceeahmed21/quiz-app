@@ -1,5 +1,5 @@
-import {allQuestions} from "./index.js"
- export class Quiz {
+import { allQuestions } from "./index.js"
+export class Quiz {
     constructor(category, difficulty, nums) {
         this.cateName = category
         this.difficulty = difficulty

@@ -1,4 +1,4 @@
-import {allQuestions,quiz} from "./index.js"
+import { allQuestions, quiz } from "./index.js"
 export class Question {
     constructor(index) {
 
@@ -9,7 +9,6 @@ export class Question {
         this.incorrect_answers = allQuestions[index].incorrect_answers
         this.category = allQuestions[index].category
         this.allAnswers = this.getAllAnswers()
-        console.log(this.correct_answer);
         this.clickedFlag = false
 
     }
